@@ -189,6 +189,10 @@ section {
     
 }
 
+/* =========================
+   Adding in a mobile friendly responsive design
+========================= */
+
 @media (max-width: 768px) {
     .card-section {
         grid-template-columns: 1fr;
@@ -199,6 +203,22 @@ section {
     .container {
         margin: 20px;
         padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .navbar {
+        max-width: 100%;
+        padding: 10px 14px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
     }
 }
 
