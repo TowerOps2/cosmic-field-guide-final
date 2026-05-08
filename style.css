@@ -298,3 +298,66 @@ header {
     padding: 0;
     margin: 0;
 }
+
+.planet-card summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.planet-card summary::-webkit-details-marker {
+    display: none;
+}
+
+.planet-card details p {
+    margin-top: 15px;
+}
+
+.planet-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.mission-card summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.mission-card summary::-webkit-details-marker {
+    display: none;
+}
+
+.mission-card details p {
+    margin-top: 15px;
+}
+
+.mission-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.galaxy-card summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.galaxy-card summary::-webkit-details-marker {
+    display: none;
+}
+
+.galaxy-card details p {
+    margin-top: 15px;
+}
+
+.galaxy-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 15px;
+}
