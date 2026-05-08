@@ -245,6 +245,10 @@ section {
    Hover Effects & Animations
 ========================= */
 
+/* =========================
+   Starry Background Animation
+========================= */
+
 @keyframes twinkle {
     0% {
         opacity: 0.3;
@@ -294,6 +298,9 @@ header {
 
 /* =========================
    Hover Effects & Animations
+========================= */
+/* =========================
+    Pulsing Glow Animation
 ========================= */
 
 @keyframes pulseGlow {
