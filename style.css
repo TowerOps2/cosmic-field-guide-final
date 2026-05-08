@@ -1,6 +1,12 @@
+
+/* =========================
+   Google Fonts Import
+========================= */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
 
-
+/* =========================
+   Global Styles
+========================= */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -29,6 +35,10 @@ body::before {
     pointer-events: none;
 }
 
+/* =========================
+   Typography
+========================= */
+
 h1, h2, h3 {
     font-family: 'Orbitron', sans-serif;
     color: #c084fc;
@@ -42,6 +52,10 @@ footer {
     padding: 0 20px;
     text-align: center;
 }
+
+/* =========================
+   Navigation Bar
+========================= */
 
 nav ul {
     list-style: none;
@@ -102,6 +116,10 @@ section {
     margin-top: 50px;
 }
 
+/* =========================
+   Hero Section
+========================= */
+
 .container:hover {
     
     transition: 0.3s ease;
@@ -123,6 +141,10 @@ section {
     font-size: 0.9rem;
     color: #d1d5db;
 }
+
+/* =========================
+   Card Layouts
+========================= */
 
 .card-section {
     display: grid;
@@ -158,6 +180,9 @@ section {
     transform: scale(1.03);
 }   
 
+/* =========================
+   Hover Effects & Animations
+========================= */
 .info-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 25px rgba(192, 132, 252, 0.35);
@@ -216,6 +241,10 @@ section {
     text-align: center;
 }
 
+/* =========================
+   Hover Effects & Animations
+========================= */
+
 @keyframes twinkle {
     0% {
         opacity: 0.3;
@@ -263,6 +292,10 @@ header {
     z-index: 1;
 }
 
+/* =========================
+   Hover Effects & Animations
+========================= */
+
 @keyframes pulseGlow {
     0% {
         transform: translate(-50%, -50%) scale(1);
@@ -292,6 +325,10 @@ header {
         transform: translateY(0);
     }
 }
+
+/* =========================
+   Responsive Design
+========================= */
 
 .info-card ul {
     list-style: none;
