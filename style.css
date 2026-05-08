@@ -17,6 +17,9 @@ body {
 
 }
 
+/* =========================
+    Starry Background Overlay
+========================= */
 body::before {
     content: "";
     position: fixed;
@@ -36,7 +39,7 @@ body::before {
 }
 
 /* =========================
-   Typography
+    Typography & Layout
 ========================= */
 
 h1, h2, h3 {
@@ -81,6 +84,10 @@ nav a :hover {
     letter-spacing: 1px;
 }
 
+
+/* =========================
+    Container & Content Styling
+========================= */
 .container {
     max-width: 900px;
     margin: 40px auto;
@@ -143,7 +150,7 @@ section {
 }
 
 /* =========================
-   Card Layouts
+    Information Cards
 ========================= */
 
 .card-section {
@@ -181,7 +188,7 @@ section {
 }   
 
 /* =========================
-   Hover Effects & Animations
+    Hover Effects & Animations
 ========================= */
 .info-card:hover {
     transform: translateY(-10px);
@@ -222,6 +229,9 @@ section {
     }
 }
 
+/* =========================
+    Featured Discovery & Sources
+========================= */
 .featured-section {
     margin-top: 70px;
     padding: 30px;
@@ -261,9 +271,7 @@ section {
     text-align: center;
 }
 
-/* =========================
-   Hover Effects & Animations
-========================= */
+
 
 /* =========================
    Starry Background Animation
@@ -281,6 +289,10 @@ section {
     }
 }
 
+
+/* =========================
+    Navigation Bar & Header Effects
+========================= */
 .navbar {
     display: inline-block;
     padding: 10px 20px;
@@ -316,9 +328,7 @@ header {
     z-index: 1;
 }
 
-/* =========================
-   Hover Effects & Animations
-========================= */
+
 /* =========================
     Pulsing Glow Animation
 ========================= */
@@ -363,6 +373,9 @@ header {
     margin: 0;
 }
 
+/* =========================
+    Details & Summary Styling
+========================= */
 .planet-card summary {
     cursor: pointer;
     list-style: none;
